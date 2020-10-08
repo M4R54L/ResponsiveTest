@@ -43,7 +43,8 @@ header h1 {
     width: 25%;
     background-color: chocolate;
     float: left;
-    min-height: 700px;
+    /* min-height: 700px; */
+    height: 100%;
     text-align: center;
     line-height: 700px;
 }
@@ -55,7 +56,8 @@ header h1 {
     width: 75%;
     float: left;
     background-color: cadetblue;
-    min-height: 700px;
+    /* min-height: 700px; */
+    height: 100%;
 }
 
 .articles article {
@@ -86,12 +88,18 @@ footer {
 /* RESPONSIVE */
 
 @media (max-width: 1060px) {
+    /* .aside {
+        float: none;
+    } */
     .articles article {
         width: 45%;
     }
 }
 
 @media (max-width: 715px) {
+    /* .aside {
+        float: none;
+    } */
     .articles article {
         width: 95%;
     }
