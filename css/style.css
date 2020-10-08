@@ -97,9 +97,12 @@ footer {
 }
 
 @media (max-width: 715px) {
-    /* .aside {
-        float: none;
-    } */
+    .articles {
+        width: 100%;
+    }
+    .aside {
+        display: none;
+    }
     .articles article {
         width: 95%;
     }
