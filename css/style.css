@@ -59,7 +59,7 @@ header h1 {
 }
 
 .articles article {
-    width: 25%;
+    width: 30%;
     height: 150px;
     text-align: center;
     line-height: 150px;
@@ -80,4 +80,19 @@ footer {
     background-color: #333333;
     color: white;
     line-height: 30px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1060px) {
+    .articles article {
+        width: 45%;
+    }
+}
+
+@media (max-width: 715px) {
+    .articles article {
+        width: 95%;
+    }
 }
