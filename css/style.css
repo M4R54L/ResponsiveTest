@@ -97,6 +97,7 @@ footer {
 }
 
 @media (max-width: 715px) {
+    .container,
     .articles {
         width: 100%;
     }
