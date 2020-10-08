@@ -22,11 +22,11 @@ header {
     width: 100%;
     background-color: aqua;
     height: 100px;
+    line-height: 100px;
 }
 
 header h1 {
     text-align: center;
-    line-height: 100px;
     font-size: 2em;
     color: #333333;
 }
